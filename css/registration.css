@@ -1,0 +1,93 @@
+body {
+    background: #131720FF;
+    color: #E0E0E0FF;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Inter", sans-serif;
+}
+
+.login-container {
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.big-heading {
+    font-family: 'Sacramento', SansSerif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+}
+
+.container-fluid {
+    background:linear-gradient(rgba(19, 23, 32, 0.7), rgba(19, 23, 32, 0.7)) , url("../images/login-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    align-items: center;
+    display: flex;
+    border: solid 2px hsl(211deg 100% 50%);
+    box-shadow: 1px 0px 9px 0px #007bff;
+    border-radius: 20px;
+    margin: 35px;
+    padding: 15px;
+}
+
+.user-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    border: solid 2px hsl(211deg 100% 50%);
+    box-shadow: 1px 0px 9px 0px #007bff;
+    object-fit: cover;
+}
+
+.login-logo-container {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.registration-input {
+    width: 80%;
+    min-height: 40px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    color: #000000;
+    font-size: 16px;
+    background: white;
+    margin: 15px 0px;
+    box-shadow: 1px 0px 9px 0px #007bff;
+    border: solid 1px #007bff;
+}
+
+.login-btn {
+    display: block;
+    background: hsl(218deg 39% 14%);
+    padding: 18px 40px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 15px;
+    color: white;
+    border: solid 2px hsl(211deg 100% 50%);
+    box-shadow: 1px 0px 9px 0px #007bff;
+}
+
+.form-inputs {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.dont-have-account {
+    display: inline-block;
+    margin-top: 25px;
+    color:white;
+    text-decoration: none ;
+}
+
+.signup-btn{
+    color:#007bff;
+    font-weight: 700;
+    text-decoration: none ;
+}
